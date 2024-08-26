@@ -1,0 +1,33 @@
+.section__info {
+    text-align: center;
+    padding-bottom: 16px;
+
+    p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: clamp(16px, 5vw, 20px);
+    }
+
+    a {
+        margin-bottom: 40px;
+    }
+
+    @media (min-width: 768px){
+        p {
+            max-width: 65ch;
+            margin-right: auto;
+            margin-left: auto;
+            // font-size: 20px; arbra clamp
+        }
+    }
+
+    @media (min-width: 1280px) {
+        text-align: left;
+
+        .info__content {
+            display: flex;
+        }
+        
+    }
+
+}

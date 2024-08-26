@@ -1,0 +1,68 @@
+.contact-button {
+    background-color: white;
+    color: $primary-color;
+    border: 1px solid $primary-color;
+    padding: 16px 48px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    border-radius: 24px;
+    white-space: nowrap;
+
+    &:hover {
+        background-color: $primary-color;
+        color: #fff;
+        transition: 0.3s;
+    }
+}
+
+.burger {
+    background-color: $primary-color;
+    width: 56px;
+    height: 56px;
+    border-radius: 4px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: $secondary-color;
+    }  
+
+    &__line {
+        height: 3px;
+        background-color: #fff;
+        border-radius: 4px;
+        flex: 0 0 3px;
+        
+    }
+    @media  (min-width: 1024px) {
+        display: none;
+    }
+}
+
+.site-header-dekstop {
+ 
+    @media  (max-width: 1023px) {
+        display: none;
+    }
+    
+}
+
+.btn-primaty {
+    background-color: $primary-color;
+    color: white;
+    line-height: 19px;
+    font-weight: 700;
+    padding: 16px 32px 16px 32px;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: $secondary-color;
+    }   
+}
